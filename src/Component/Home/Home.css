@@ -22,6 +22,10 @@
     margin-bottom: 0.5rem;
 }
 
+.home__education{
+    font-weight: var(--font-bold);
+}
+
 .home__socials {
     display: flex;
     column-gap: 1.75rem;
