@@ -39,7 +39,7 @@ const Portfolio = () => {
                                     </div>
                                     <span className='work__category'>{category}</span>
                                     <h3 className='work__title'>{title}</h3>
-                                    <a href="#" className='work__button'>
+                                    <a href="#home" className='work__button'>
                                         <FaLink className='work__button-icon' />
                                     </a>
                                 </div>

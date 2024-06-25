@@ -15,7 +15,7 @@ const About = () => {
                     <div className="about__data grid">
                         <div className="about__info">
                             <p className="about__description">I am Tushar Prajapati, web developer from Ahmedabad, India. I have rich experience in website design and building and customization, also I am good at HTML, CSS and JS.</p>
-                            <a href="#" className='btn'>Download CV</a>
+                            <a href="#home" className='btn'>Download CV</a>
                         </div>
 
 
