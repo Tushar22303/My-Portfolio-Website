@@ -10,12 +10,12 @@ const About = () => {
                 <h2 className="section__title">About Me</h2>
 
                 <div className="about__container grid">
-                    <img src={about_image} alt="photo" className='about__img' />
+                    <img src={about_image} alt="avatar-2" className='about__img' />
 
                     <div className="about__data grid">
                         <div className="about__info">
                             <p className="about__description">I am Tushar Prajapati, web developer from Ahmedabad, India. I have rich experience in website design and building and customization, also I am good at HTML, CSS and JS.</p>
-                            <a href="" className='btn'>Download CV</a>
+                            <a href="#" className='btn'>Download CV</a>
                         </div>
 
 
