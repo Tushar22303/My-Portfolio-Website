@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import photo_2 from '../../assest/Images/photo2.JPG'
+import resume from '../../assest/Images/New Resume.pdf'
 
 const About = () => {
     return (
@@ -14,7 +15,7 @@ const About = () => {
                     <div className="about__data grid">
                         <div className="about__info">
                             <p className="about__description">I am Tushar Prajapati, web developer from Ahmedabad, India. I have rich experience in website design and building and customization, also I am good at HTML, CSS, JS, Bootstrap and React JS. Also known about the UI Design in Software Like Figma. Done the Certification course from <a href="https://sutraanalytics.com/" target='_blank'>Sutra Analytics PVT LTd.</a></p>
-                            <a href="#home" className='btn' download="#">Download CV</a>
+                            <a href={resume} className='btn' download="Tushar_Prajapati_Resume.pdf">Download CV</a>
                         </div>
 
 
