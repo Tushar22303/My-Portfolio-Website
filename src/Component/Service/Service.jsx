@@ -1,30 +1,30 @@
 import React from 'react'
 import './Service.css'
-import Image1 from '../../assest/Images/service-1.svg'
-import Image2 from '../../assest/Images/service-2.svg'
-import Image3 from '../../assest/Images/service-3.svg'
+import Image1 from '../../assest/Images/UI.png'
+import Image2 from '../../assest/Images/Frontend.png'
+import Image3 from '../../assest/Images/Web.png'
 
 const data = [
     {
         id: 1,
         image: Image1,
-        title: "UI/UX design",
+        title: "UI design",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            "User Interface (UI) designing involves creating layouts, selecting colors, defining typography, and ensuring that the overall design aligns with the brand identity while providing an intuitive user experience.",
     },
     {
         id: 2,
         image: Image2,
-        title: "Web Development",
+        title: "Frontend Development",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            "Frontend development involves creating the user-facing part of a website or web application, focusing on layout, design, and interactivity. It encompasses the use of HTML for structure, CSS for styling, and JavaScript for dynamic functionality. ",
     },
     {
         id: 3,
         image: Image3,
-        title: "Photography",
+        title: "Web Designing",
         description:
-            "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+            "Web designing is the process of creating the visual and interactive aspects of websites. It involves planning, conceptualizing, and arranging content and elements to deliver an engaging and user-friendly experience.",
     },
 ];
 

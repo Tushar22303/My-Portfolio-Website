@@ -14,6 +14,9 @@
 
 .home__img {
     margin-bottom: 1.5rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
 }
 
 .home__name {

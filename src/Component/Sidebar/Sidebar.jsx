@@ -1,13 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import './Sidebar.css';
-import logo from '../../assest/Images/logo.svg'
+import logo from '../../assest/Images/Logo.png';
 import { TiHome } from "react-icons/ti";
 import { FaUser, FaBriefcase, FaGraduationCap, FaStickyNote } from "react-icons/fa";
-import { IoLayers, IoChatbubbleEllipses } from "react-icons/io5";
+import { IoChatbubbleEllipses } from "react-icons/io5";
 import { RxHamburgerMenu } from "react-icons/rx";
 
 const Sidebar = () => {
     const [toggle, showMenu] = useState(false);
+
+    const handleNavItemClick = () => {
+        showMenu(false);
+    };
+
     return (
         <>
             <aside className={toggle ? "aside show-menu" : "aside"}>
@@ -19,37 +24,32 @@ const Sidebar = () => {
                     <div className="nav__menu">
                         <ul className="nav__list">
                             <li className="nav__item">
-                                <a href="#home" className="nav__link">
+                                <a href="#home" className="nav__link" onClick={handleNavItemClick}>
                                     <TiHome />
                                 </a>
                             </li>
                             <li className="nav__item">
-                                <a href="#about" className="nav__link">
+                                <a href="#about" className="nav__link" onClick={handleNavItemClick}>
                                     <FaUser />
                                 </a>
                             </li>
                             <li className="nav__item">
-                                <a href="#services" className="nav__link">
+                                <a href="#services" className="nav__link" onClick={handleNavItemClick}>
                                     <FaBriefcase />
                                 </a>
                             </li>
                             <li className="nav__item">
-                                <a href="#resume" className="nav__link">
+                                <a href="#resume" className="nav__link" onClick={handleNavItemClick}>
                                     <FaGraduationCap />
                                 </a>
                             </li>
                             <li className="nav__item">
-                                <a href="#portfolio" className="nav__link">
-                                    <IoLayers />
-                                </a>
-                            </li>
-                            <li className="nav__item">
-                                <a href="#blog" className="nav__link">
+                                <a href="#projects" className="nav__link" onClick={handleNavItemClick}>
                                     <FaStickyNote />
                                 </a>
                             </li>
                             <li className="nav__item">
-                                <a href="#contact" className="nav__link">
+                                <a href="#contact" className="nav__link" onClick={handleNavItemClick}>
                                     <IoChatbubbleEllipses />
                                 </a>
                             </li>
@@ -68,7 +68,7 @@ const Sidebar = () => {
                 <RxHamburgerMenu className='icon-menu' />
             </div>
         </>
-    )
+    );
 }
 
-export default Sidebar
+export default Sidebar;

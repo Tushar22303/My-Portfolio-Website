@@ -31,6 +31,8 @@
 }
 
 .services__images {
+    height: 7rem;
+    width: 7rem;
     margin-bottom: 1.25rem;
 }
 
@@ -41,6 +43,7 @@
 }
 
 .services__description {
+    text-align: justify;
     color: #f8f9fa;
 }
 

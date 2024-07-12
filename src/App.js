@@ -9,9 +9,6 @@ import Service from './Component/Service/Service';
 import About from './Component/About/About';
 import Contact from './Component/Contact/Contact';
 import Resume from './Component/Resume/Resume';
-import Portfolio from './Component/Portfolio/Portfolio';
-import Pricing from './Component/Pricing/Pricing';
-import Testimonials from './Component/Testimonials/Testimonials';
 import Blog from './Component/Blog/Blog';
 
 function App() {
@@ -39,15 +36,6 @@ function App() {
         </section>
         <section data-aos="slide-left">
           <Resume />
-        </section>
-        <section data-aos="slide-right">
-          <Portfolio />
-        </section>
-        <section data-aos="zoom-in">
-          <Pricing />
-        </section>
-        <section data-aos="zoom-out">
-          <Testimonials />
         </section>
         <section data-aos="fade-in">
           <Blog />
